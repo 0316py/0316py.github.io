@@ -1,16 +1,40 @@
-body, html {
-  background-color: white;
-  height: 100%;
+body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Georgia", serif;
 }
 
-/* Centered website */
-.main {
-  max-width: 1000px;
-  margin: auto;
+.topnav {
+  overflow: hidden;
+  background-color: white;
 }
 
+.topnav a {
+  float: left;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.topnav a.active {
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.box{
+	width: auto;
+    height: auto;
+    margin: 0px 20px;
+}
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
   height: 50%;
